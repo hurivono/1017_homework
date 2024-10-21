@@ -20,3 +20,6 @@ port forwarding 하여 local에서 argocd server에 들어갈 수 있도록 만�
 kubectl -n argocd get secret argocd-initial-admin-secret -o jsonpath="{.data.password}" | base64 -d; echo 명령어로 임시 비밀번호 확인
 localhost:8080에 접속하여 비번 설정 
 이후 container안에서 argocd repo add ~ 하여 원하는 repo를 argocd에 추가.
+
+
+https://wlsdn3004.tistory.com/37 정리 굳
